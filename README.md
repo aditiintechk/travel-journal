@@ -1,5 +1,9 @@
 # Travel Journal
 
+## Demo
+
+[DEMO](./src/images/travel-journal-demo.gif)
+
 ## Live Link
 
 [Travel Journal with React](https://aditi002-holo.github.io/travel-journal/)
