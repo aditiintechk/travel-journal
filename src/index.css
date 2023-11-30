@@ -1,0 +1,104 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 1em;
+
+  color-scheme: light dark;
+  color: #2B283A;
+  background-color: #1C1C1C;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+
+h2, h3 {
+  margin: 0;
+}
+
+/* Container */
+
+.container {
+  max-width: 550px;
+  min-width: 350px;
+  margin: 0 auto;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: center;
+  column-gap: 0.5rem;
+
+  background: #F55A5A;
+  color: #fff;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+
+header h1 {
+  font-size: 0.875rem;
+  font-weight: 400;
+}
+
+/* Main */
+
+main {
+  background: #FFF;
+  padding: 1.5em;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.location-card, .location-details {
+  display: flex;
+  align-items: center;
+}
+
+.location-card {
+  column-gap: 1em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.location-image {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.location, .view-on-maps, .date-of-visit, .location-info {
+  font-size: 0.68rem;
+}
+
+.location {
+  margin-left: 0.5em;
+}
+
+.view-on-maps {
+  margin-left: 1em;
+  color: #918E9B;
+}
+
+.view-on-maps:hover {
+  color: #1C1C1C;
+}
+
+.location-specific {
+  font-size: 1.6rem;
+}
+
+.date-of-visit {
+  font-weight: 700;
+}
+
+.location-info {
+  font-weight: 500;
+  line-height: 1.6;
+}
