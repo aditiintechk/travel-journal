@@ -2,7 +2,7 @@
 
 ## Demo
 
-![](./src/images/travel-journal-demo.gif)
+![](./public/travel-journal-demo.gif)
 
 ## Live Link
 
