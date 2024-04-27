@@ -6,7 +6,7 @@
 
 ## Live Link
 
-[Travel Journal with React](https://aditi002-holo.github.io/travel-journal/)
+[Travel Journal with React](https://aditiintechk.github.io/travel-journal/)
 
 ## Learnings
 
